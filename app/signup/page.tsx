@@ -227,7 +227,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="mt-1 h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded flex-shrink-0" />
                   <label htmlFor="smsOptIn" className="text-xs leading-relaxed text-gray-600">
-                    By checking this box, you agree to receive wellness-related text messages from healthy-template. Reply <strong>STOP</strong> to opt out. Reply <strong>HELP</strong> for help. Message and data rates may apply. Opting in is optional and not required to use the service.
+                    By checking this box, I expressly consent to receive <strong>transactional account alert text messages</strong> from healthy-template, including account confirmations, wellness challenge milestone alerts, movement streak notifications, and reward activity alerts. Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for help. Message and data rates may apply. Message frequency varies based on account activity. <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Opting in is optional and not required to use the service. See our <Link href="/terms" className="text-green-600 underline">Terms of Service</Link> (Section 5) for full SMS disclosures.
                   </label>
                 </div>
               </div>

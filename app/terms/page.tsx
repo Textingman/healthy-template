@@ -78,23 +78,32 @@ export default function TermsPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">5. SMS Communications</h2>
-            <p className="text-gray-600 leading-relaxed mb-4">
-              By opting in to SMS communications, you agree to receive alert-related text messages from healthy-template, including:
-            </p>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2">
-              <li>Account access and onboarding confirmations</li>
-              <li>Challenge milestone and completion alerts</li>
-              <li>Streak notifications and wellness reminders</li>
-              <li>Reward and points activity alerts</li>
-            </ul>
-            <p className="text-gray-600 leading-relaxed mt-4">
-              <strong>Message and data rates may apply.</strong> Message frequency varies based on account activity. You may opt out at any time by replying <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact <a href="mailto:support@healthy-template.com" className="text-green-600 hover:underline">support@healthy-template.com</a>. Opting in to SMS is optional and not required to use the Service.
-            </p>
-            <p className="text-gray-600 leading-relaxed mt-4">
-              <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong>
-            </p>
-          </div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">5. SMS Communications — Transactional Account Alerts</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                By providing your phone number and checking the SMS opt-in box during account registration, you expressly consent to receive <strong>transactional account alert text messages</strong> from healthy-template. These messages are limited to account-related notifications and wellness activity alerts, including:
+              </p>
+              <ul className="list-disc pl-6 text-gray-600 space-y-2">
+                <li>Account access confirmations and onboarding instructions</li>
+                <li>Wellness challenge milestone and completion alerts</li>
+                <li>Movement streak notifications and activity reminders</li>
+                <li>Reward points earned and redemption activity alerts</li>
+                <li>Account security and access notifications</li>
+              </ul>
+              <div className="mt-4 p-4 rounded-xl" style={{ background: 'rgba(134,239,172,0.1)', border: '1px solid rgba(134,239,172,0.3)' }}>
+                <p className="text-sm text-green-800 font-semibold mb-2">Important SMS Disclosures:</p>
+                <ul className="text-sm text-green-800 space-y-1">
+                  <li>• <strong>Message and data rates may apply.</strong></li>
+                  <li>• Message frequency varies based on your account activity.</li>
+                  <li>• To opt out at any time, reply <strong>STOP</strong> to any message.</li>
+                  <li>• For help, reply <strong>HELP</strong> or contact <a href="mailto:support@healthy-template.com" className="underline">support@healthy-template.com</a>.</li>
+                  <li>• Opting in to SMS is optional and not required to use the Service.</li>
+                  <li>• <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong></li>
+                </ul>
+              </div>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                These SMS messages are strictly transactional in nature. We do not send marketing, promotional, or advertising text messages. Your consent to receive SMS is separate from your agreement to these Terms and may be withdrawn at any time without affecting your access to the Service.
+              </p>
+            </div>
 
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Acceptable Use</h2>

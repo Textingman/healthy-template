@@ -86,9 +86,12 @@ export default function PrivacyPage() {
               </div>
 
               <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">2.3 Mobile Information Sharing</h3>
-              <p className="text-gray-600">
-                <strong>No mobile information will be shared or sold to third parties for marketing purposes.</strong> We are committed to protecting your mobile information and will only use it for the purposes outlined in this Privacy Policy, such as providing our wellness platform and communicating with you about your account via alert-related SMS messages.
-              </p>
+              <div className="p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.05)', border: '1px solid rgba(239,68,68,0.2)' }}>
+                <p className="text-sm font-bold text-red-800 mb-1">No Mobile Data Sharing Policy</p>
+                <p className="text-sm text-red-700">
+                  <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> All categories of mobile information are excluded from sharing with third-party marketers. We are committed to protecting your mobile information and will only use it for the purposes outlined in this Privacy Policy, such as providing our wellness platform and communicating with you about your account via transactional account alert SMS messages.
+                </p>
+              </div>
 
               <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">2.4 Automatically Collected Information</h3>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
