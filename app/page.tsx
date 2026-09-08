@@ -848,19 +848,22 @@ export default function HomePage() {
             </div>
 
             <div className="flex flex-wrap gap-8">
-              {[
-                { title: 'Product', links: ['Product', 'Integrations', 'Challenges'] },
-                { title: 'Company', links: ['Privacy', 'Security', 'Contact'] },
-              ].map(col => (
-                <div key={col.title}>
-                  <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">{col.title}</p>
-                  <div className="space-y-2">
-                    {col.links.map(link => (
-                      <a key={link} href="#" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">{link}</a>
-                    ))}
-                  </div>
+              <div>
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Product</p>
+                <div className="space-y-2">
+                  <Link href="/product" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Product</Link>
+                  <Link href="/integrations" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Integrations</Link>
+                  <Link href="/challenges" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Challenges</Link>
                 </div>
-              ))}
+              </div>
+              <div>
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Company</p>
+                <div className="space-y-2">
+                  <Link href="/privacy" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Privacy</Link>
+                  <Link href="/terms" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Terms</Link>
+                  <Link href="/contact" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Contact</Link>
+                </div>
+              </div>
             </div>
           </div>
 
