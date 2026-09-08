@@ -75,7 +75,6 @@ export default function HomePage() {
               { label: 'Integrations', href: '/integrations' },
               { label: 'Challenges', href: '/challenges' },
               { label: 'For HR Teams', href: '/for-employers' },
-              { label: 'Privacy', href: '/privacy' },
             ].map(item => (
               <Link key={item.href} href={item.href} className="px-3 py-2 text-sm text-gray-600 hover:text-gray-900 rounded-lg hover:bg-black/5 transition-all">
                 {item.label}
@@ -106,7 +105,6 @@ export default function HomePage() {
                 { label: 'Integrations', href: '/integrations' },
                 { label: 'Challenges', href: '/challenges' },
                 { label: 'For HR Teams', href: '/for-employers' },
-                { label: 'Privacy', href: '/privacy' },
               ].map(item => (
                 <Link key={item.href} href={item.href} className="block px-3 py-2.5 text-sm text-gray-700 hover:text-gray-900 rounded-lg hover:bg-black/5">
                   {item.label}

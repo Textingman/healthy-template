@@ -19,8 +19,6 @@ export default function Nav() {
     { href: '/integrations', label: 'Integrations' },
     { href: '/challenges', label: 'Challenges' },
     { href: '/for-employers', label: 'For HR Teams' },
-    { href: '/privacy', label: 'Privacy' },
-    { href: '/contact', label: 'Contact' },
   ];
 
   return (
