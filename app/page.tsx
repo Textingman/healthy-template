@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 // ─── Progress Ring Component ───────────────────────────────────────────────
 function ProgressRing({ percent, size = 60, stroke = 5, color = '#16a34a' }: {
@@ -68,19 +69,26 @@ export default function HomePage() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-1">
-            {['Product', 'How It Works', 'Integrations', 'Challenges', 'For Employers', 'Privacy'].map(item => (
-              <a key={item} href="#" className="px-3 py-2 text-sm text-gray-600 hover:text-gray-900 rounded-lg hover:bg-black/5 transition-all">
-                {item}
-              </a>
+            {[
+              { label: 'Product', href: '/product' },
+              { label: 'How It Works', href: '/how-it-works' },
+              { label: 'Integrations', href: '/integrations' },
+              { label: 'Challenges', href: '/challenges' },
+              { label: 'For HR Teams', href: '/for-employers' },
+              { label: 'Privacy', href: '/privacy' },
+            ].map(item => (
+              <Link key={item.href} href={item.href} className="px-3 py-2 text-sm text-gray-600 hover:text-gray-900 rounded-lg hover:bg-black/5 transition-all">
+                {item.label}
+              </Link>
             ))}
           </div>
 
           {/* CTA */}
           <div className="flex items-center gap-3">
-            <button className="hidden md:block px-5 py-2.5 text-sm font-medium text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5 shadow-lg"
+            <Link href="/signup" className="hidden md:block px-5 py-2.5 text-sm font-medium text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5 shadow-lg"
               style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
               Get Started
-            </button>
+            </Link>
             <button className="md:hidden p-2 rounded-lg hover:bg-black/5" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
@@ -90,19 +98,26 @@ export default function HomePage() {
         </div>
 
         {/* Mobile Menu */}
-        {mobileMenuOpen && (
-          <div className="md:hidden glass-nav mt-2 mx-4 rounded-2xl p-4">
-            {['Product', 'How It Works', 'Integrations', 'Challenges', 'For Employers', 'Privacy'].map(item => (
-              <a key={item} href="#" className="block px-3 py-2.5 text-sm text-gray-700 hover:text-gray-900 rounded-lg hover:bg-black/5">
-                {item}
-              </a>
-            ))}
-            <button className="w-full mt-3 px-5 py-3 text-sm font-medium text-white rounded-xl"
-              style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
-              Get Started
-            </button>
-          </div>
-        )}
+          {mobileMenuOpen && (
+            <div className="md:hidden glass-nav mt-2 mx-4 rounded-2xl p-4">
+              {[
+                { label: 'Product', href: '/product' },
+                { label: 'How It Works', href: '/how-it-works' },
+                { label: 'Integrations', href: '/integrations' },
+                { label: 'Challenges', href: '/challenges' },
+                { label: 'For HR Teams', href: '/for-employers' },
+                { label: 'Privacy', href: '/privacy' },
+              ].map(item => (
+                <Link key={item.href} href={item.href} className="block px-3 py-2.5 text-sm text-gray-700 hover:text-gray-900 rounded-lg hover:bg-black/5">
+                  {item.label}
+                </Link>
+              ))}
+              <Link href="/signup" className="block w-full mt-3 px-5 py-3 text-sm font-medium text-white rounded-xl text-center"
+                style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
+                Get Started
+              </Link>
+            </div>
+          )}
       </nav>
 
       {/* ── HERO ── */}
