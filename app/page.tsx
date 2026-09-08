@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Footer from './components/Footer';
 
 // ─── Progress Ring Component ───────────────────────────────────────────────
 function ProgressRing({ percent, size = 60, stroke = 5, color = '#16a34a' }: {
@@ -831,48 +832,7 @@ export default function HomePage() {
       </section>
 
       {/* ── FOOTER ── */}
-      <footer className="py-16 px-6 border-t border-gray-100 relative" style={{ zIndex: 1 }}>
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row items-start justify-between gap-8">
-            <div>
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 rounded-xl flex items-center justify-center"
-                  style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round">
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                  </svg>
-                </div>
-                <span className="font-semibold text-gray-900">healthy-template</span>
-              </div>
-              <p className="text-sm text-gray-400">Connected employee wellness.</p>
-            </div>
-
-            <div className="flex flex-wrap gap-8">
-              <div>
-                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Product</p>
-                <div className="space-y-2">
-                  <Link href="/product" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Product</Link>
-                  <Link href="/integrations" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Integrations</Link>
-                  <Link href="/challenges" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Challenges</Link>
-                </div>
-              </div>
-              <div>
-                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Company</p>
-                <div className="space-y-2">
-                  <Link href="/privacy" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Privacy</Link>
-                  <Link href="/terms" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Terms</Link>
-                  <Link href="/contact" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Contact</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-100 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-400">&copy; 2026 healthy-template. All rights reserved.</p>
-            <p className="text-xs text-gray-300">Built for the future of workplace wellness.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
     </div>
   );
