@@ -42,6 +42,7 @@ export default function Footer() {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Legal</p>
               <div className="space-y-2">
                 <Link href="/privacy" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Privacy Policy</Link>
+                <Link href="/terms" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Terms of Service</Link>
                 <Link href="/contact" className="block text-sm text-gray-500 hover:text-gray-900 transition-colors">Security</Link>
               </div>
             </div>
