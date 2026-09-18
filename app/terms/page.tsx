@@ -30,7 +30,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-600 leading-relaxed">
-              By accessing or using the healthy-template employee wellness platform (&quot;Service&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the Service.
+              By accessing or using the Team Cross Fit employee wellness platform (&quot;Service&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the Service.
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
               These Terms apply to all users of the Service, including employees who access the platform through a Company ID provided by their employer, and employers who set up and manage wellness programs.
@@ -40,7 +40,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Service</h2>
             <p className="text-gray-600 leading-relaxed">
-              healthy-template is a connected employee wellness platform that allows employees to link supported health apps and devices, participate in wellness challenges, track progress, and earn rewards. Employers use the platform to create and manage wellness programs for their workforce.
+              Team Cross Fit is a connected employee wellness platform that allows employees to link supported health apps and devices, participate in wellness challenges, track progress, and earn rewards. Employers use the platform to create and manage wellness programs for their workforce.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ export default function TermsPage() {
             <ul className="list-disc pl-6 text-gray-600 space-y-2">
               <li>You are voluntarily choosing to share specific health and wellness activity data</li>
               <li>You control which data types you authorize and can revoke access at any time</li>
-              <li>healthy-template will only access the specific data types you explicitly authorize</li>
+              <li>Team Cross Fit will only access the specific data types you explicitly authorize</li>
               <li>Your employer will only receive aggregate wellness engagement data, not your individual health records</li>
               <li>Participation in connected wellness features is optional and not required for employment</li>
             </ul>
@@ -80,7 +80,7 @@ export default function TermsPage() {
           <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">5. SMS Communications — Transactional Account Alerts</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                By providing your phone number and checking the SMS opt-in box during account registration, you expressly consent to receive <strong>transactional account alert text messages</strong> from healthy-template. These messages are limited to account-related notifications and wellness activity alerts, including:
+                By providing your phone number and checking the SMS opt-in box during account registration, you expressly consent to receive <strong>transactional account alert text messages</strong> from Team Cross Fit. These messages are limited to account-related notifications and wellness activity alerts, including:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
                 <li>Account access confirmations and onboarding instructions</li>
@@ -95,7 +95,7 @@ export default function TermsPage() {
                   <li>• <strong>Message and data rates may apply.</strong></li>
                   <li>• Message frequency varies based on your account activity.</li>
                   <li>• To opt out at any time, reply <strong>STOP</strong> to any message.</li>
-                  <li>• For help, reply <strong>HELP</strong> or contact <a href="mailto:support@healthy-template.com" className="underline">support@healthy-template.com</a>.</li>
+                  <li>• For help, reply <strong>HELP</strong> or contact <a href="mailto:support@teamcrossfit.com" className="underline">support@teamcrossfit.com</a>.</li>
                   <li>• Opting in to SMS is optional and not required to use the Service.</li>
                   <li>• <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong></li>
                 </ul>
@@ -121,14 +121,14 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Wellness Challenges and Rewards</h2>
             <p className="text-gray-600 leading-relaxed">
-              Wellness challenges, points, and rewards are administered by your employer through the healthy-template platform. The specific terms of any rewards program, including eligibility, redemption, and expiration, are determined by your employer. healthy-template is not responsible for the fulfillment of employer-offered rewards.
+              Wellness challenges, points, and rewards are administered by your employer through the Team Cross Fit platform. The specific terms of any rewards program, including eligibility, redemption, and expiration, are determined by your employer. Team Cross Fit is not responsible for the fulfillment of employer-offered rewards.
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Intellectual Property</h2>
             <p className="text-gray-600 leading-relaxed">
-              The Service and its original content, features, and functionality are owned by healthy-template and are protected by applicable intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+              The Service and its original content, features, and functionality are owned by Team Cross Fit and are protected by applicable intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
             </p>
           </div>
 
@@ -181,9 +181,9 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">15. Contact Us</h2>
             <div className="glass-card p-6">
               <p className="text-gray-600 mb-2">If you have questions about these Terms, please contact us:</p>
-              <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@healthy-template.com" className="text-green-600 hover:underline">support@healthy-template.com</a></p>
+              <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a></p>
               <p className="text-gray-600 mb-2"><strong>Phone:</strong> (855) XXX-XXXX</p>
-              <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">healthy-template.com</a></p>
+              <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">teamcrossfit.com</a></p>
             </div>
           </div>
 

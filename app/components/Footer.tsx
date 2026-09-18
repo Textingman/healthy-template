@@ -13,7 +13,7 @@ export default function Footer() {
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                 </svg>
               </div>
-              <span className="font-semibold text-gray-900">healthy-template</span>
+              <span className="font-semibold text-gray-900">Team Cross Fit</span>
             </Link>
             <p className="text-sm text-gray-400 max-w-xs">
               Connected employee wellness for HR and people teams.
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-100 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-400">&copy; 2026 healthy-template. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; 2026 Team Cross Fit. All rights reserved.</p>
           <div className="flex items-center gap-3">
             {/* Google */}
             <a href="https://google.com" target="_blank" rel="noopener noreferrer"

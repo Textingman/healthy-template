@@ -32,7 +32,7 @@ export default function Nav() {
               <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
             </svg>
           </div>
-          <span className="font-semibold text-gray-900 text-[15px] tracking-tight">healthy-template</span>
+          <span className="font-semibold text-gray-900 text-[15px] tracking-tight">Team Cross Fit</span>
         </Link>
 
         {/* Desktop Nav */}

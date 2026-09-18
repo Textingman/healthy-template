@@ -34,7 +34,7 @@ export default function ChallengesPage() {
             <br /><span className="gradient-text-green">something your team does together.</span>
           </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-            healthy-template challenges connect to real activity data from employees&apos; health apps — so participation is automatic, not manual. No logging. No guessing. Just real wellness.
+            Team Cross Fit challenges connect to real activity data from employees&apos; health apps — so participation is automatic, not manual. No logging. No guessing. Just real wellness.
           </p>
         </div>
       </section>

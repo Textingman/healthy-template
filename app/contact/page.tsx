@@ -46,7 +46,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-            Have questions about healthy-template for your organization? Our team is ready to help HR and people teams build better wellness programs.
+            Have questions about Team Cross Fit for your organization? Our team is ready to help HR and people teams build better wellness programs.
           </p>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function ContactPage() {
 
             <div className="space-y-6 mb-10">
               {[
-                { icon: '📧', title: 'Email', value: 'support@healthy-template.com', href: 'mailto:support@healthy-template.com' },
+                { icon: '📧', title: 'Email', value: 'support@teamcrossfit.com', href: 'mailto:support@teamcrossfit.com' },
                 { icon: '📞', title: 'Phone', value: '(855) XXX-XXXX', href: 'tel:+18550000000' },
                 { icon: '🕐', title: 'Business Hours', value: 'Monday – Friday, 9am – 6pm EST', href: null },
               ].map(item => (
@@ -195,7 +195,7 @@ export default function ContactPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-10">Common Questions</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              { q: 'How do employees join?', a: 'Employees receive a Company ID from their HR team and use it to create their account on healthy-template.', link: '/how-it-works' },
+              { q: 'How do employees join?', a: 'Employees receive a Company ID from their HR team and use it to create their account on Team Cross Fit.', link: '/how-it-works' },
               { q: 'What health apps are supported?', a: 'Apple Health is our primary integration. We also support compatible smartwatches and fitness trackers.', link: '/integrations' },
               { q: 'How does privacy work?', a: 'Employees control exactly what data they share. Employers only see aggregate wellness engagement data.', link: '/privacy' },
               { q: 'How do I set up a company program?', a: 'Contact our team or visit the For HR Teams page to learn about setting up your organization\'s wellness program.', link: '/for-employers' },

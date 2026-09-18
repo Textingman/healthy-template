@@ -60,7 +60,7 @@ export default function SignupPage() {
             Join Your Company&apos;s Wellness Program
           </h1>
           <p className="text-lg text-gray-500">
-            Your employer has set up a healthy-template wellness program. Use your Company ID to get started.
+            Your employer has set up a Team Cross Fit wellness program. Use your Company ID to get started.
           </p>
         </div>
       </section>
@@ -227,7 +227,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="mt-1 h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded flex-shrink-0" />
                   <label htmlFor="smsOptIn" className="text-xs leading-relaxed text-gray-600">
-                    By checking this box, I expressly consent to receive <strong>transactional account alert text messages</strong> from healthy-template, including account confirmations, wellness challenge milestone alerts, movement streak notifications, and reward activity alerts. Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for help. Message and data rates may apply. Message frequency varies based on account activity. <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Opting in is optional and not required to use the service. See our <Link href="/terms" className="text-green-600 underline">Terms of Service</Link> (Section 5) for full SMS disclosures.
+                    By checking this box, I expressly consent to receive <strong>transactional account alert text messages</strong> from Team Cross Fit, including account confirmations, wellness challenge milestone alerts, movement streak notifications, and reward activity alerts. Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for help. Message and data rates may apply. Message frequency varies based on account activity. <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Opting in is optional and not required to use the service. See our <Link href="/terms" className="text-green-600 underline">Terms of Service</Link> (Section 5) for full SMS disclosures.
                   </label>
                 </div>
               </div>
@@ -279,7 +279,7 @@ export default function SignupPage() {
                   📧 <strong>We&apos;ve notified your employer</strong> (Company ID: <strong>{formData.companyId}</strong>) that you&apos;ve requested access. Once approved, you&apos;ll receive an email at <strong>{formData.email}</strong> with instructions to activate your account and connect your health apps.
                 </p>
                 <p className="text-sm text-green-800 leading-relaxed mt-3">
-                  ⏱ Approval typically takes <strong>1–2 business days</strong>. Questions? <a href="mailto:support@healthy-template.com" className="underline">support@healthy-template.com</a>
+                  ⏱ Approval typically takes <strong>1–2 business days</strong>. Questions? <a href="mailto:support@teamcrossfit.com" className="underline">support@teamcrossfit.com</a>
                 </p>
               </div>
               <Link href="/"

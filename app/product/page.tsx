@@ -27,7 +27,7 @@ export default function ProductPage() {
             <br /><span className="gradient-text-green">built for how people actually live.</span>
           </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-10">
-            healthy-template bridges the gap between the health apps employees already use and the wellness programs companies want to run — without friction, manual logging, or privacy concerns.
+            Team Cross Fit bridges the gap between the health apps employees already use and the wellness programs companies want to run — without friction, manual logging, or privacy concerns.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/signup"
@@ -51,7 +51,7 @@ export default function ProductPage() {
               One platform. Three experiences.
             </h2>
             <p className="text-lg text-gray-500">
-              healthy-template works for employees, HR teams, and the whole organization.
+              Team Cross Fit works for employees, HR teams, and the whole organization.
             </p>
           </div>
 
@@ -113,7 +113,7 @@ export default function ProductPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 tracking-tight mb-4">
-              Why healthy-template is different.
+              Why Team Cross Fit is different.
             </h2>
           </div>
 
@@ -122,7 +122,7 @@ export default function ProductPage() {
               {
                 icon: '🔗',
                 title: 'Connected, not manual',
-                desc: 'Employees don\'t log workouts manually. healthy-template connects with Apple Health and compatible devices so eligible activity counts automatically. No friction. No behavior change required.',
+                desc: 'Employees don\'t log workouts manually. Team Cross Fit connects with Apple Health and compatible devices so eligible activity counts automatically. No friction. No behavior change required.',
               },
               {
                 icon: '🔐',
@@ -132,7 +132,7 @@ export default function ProductPage() {
               {
                 icon: '🏃',
                 title: 'Meets employees where they are',
-                desc: 'Your employees already track their steps, workouts, and activity. healthy-template connects to what they\'re already doing and makes it count toward workplace wellness goals.',
+                desc: 'Your employees already track their steps, workouts, and activity. Team Cross Fit connects to what they\'re already doing and makes it count toward workplace wellness goals.',
               },
               {
                 icon: '⚡',

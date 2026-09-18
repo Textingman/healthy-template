@@ -50,10 +50,10 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
               <p className="text-gray-600 leading-relaxed">
-                healthy-template (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our connected employee wellness platform.
+                Team Cross Fit (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our connected employee wellness platform.
               </p>
               <p className="text-gray-600 leading-relaxed mt-4">
-                healthy-template is designed around employee choice. Employees decide whether to connect supported health services and choose what eligible activity they authorize. Employers receive the information necessary to operate wellness programs without needing access to an employee&apos;s broader personal health history.
+                Team Cross Fit is designed around employee choice. Employees decide whether to connect supported health services and choose what eligible activity they authorize. Employers receive the information necessary to operate wellness programs without needing access to an employee&apos;s broader personal health history.
               </p>
             </div>
 
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">3. How We Use Your Information</h2>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
-                <li>Provide and maintain the healthy-template wellness platform</li>
+                <li>Provide and maintain the Team Cross Fit wellness platform</li>
                 <li>Track your progress toward wellness challenges and goals</li>
                 <li>Calculate and award points and rewards</li>
                 <li>Send service-related communications and wellness updates</li>
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">4. What Employers Can See</h2>
               <p className="text-gray-600 mb-4">
-                Employers who use healthy-template to run wellness programs have access to aggregate wellness engagement data — not individual employee health records.
+                Employers who use Team Cross Fit to run wellness programs have access to aggregate wellness engagement data — not individual employee health records.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl" style={{ background: 'rgba(134,239,172,0.1)', border: '1px solid rgba(134,239,172,0.3)' }}>
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">6. SMS Communications</h2>
               <p className="text-gray-600 mb-4">
-                healthy-template may send SMS (text message) communications to users who have opted in. Our SMS program is limited exclusively to <strong>alert related text messages</strong>, which may include:
+                Team Cross Fit may send SMS (text message) communications to users who have opted in. Our SMS program is limited exclusively to <strong>alert related text messages</strong>, which may include:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
                 <li>Account access and onboarding confirmations</li>
@@ -173,7 +173,7 @@ export default function PrivacyPage() {
                 <strong>We do not send marketing or promotional SMS messages.</strong> No mobile information will be shared with or sold to third parties for marketing or promotional purposes.
               </p>
               <p className="text-gray-600 mt-4">
-                Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@healthy-template.com" className="text-green-600 hover:underline">support@healthy-template.com</a>.
+                Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a>.
               </p>
             </div>
 
@@ -187,7 +187,7 @@ export default function PrivacyPage() {
                 <li><strong>Opt-out:</strong> Opt out of SMS communications by replying STOP</li>
               </ul>
               <p className="text-gray-600 mt-4">
-                To exercise these rights, contact us at <a href="mailto:support@healthy-template.com" className="text-green-600 hover:underline">support@healthy-template.com</a>.
+                To exercise these rights, contact us at <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a>.
               </p>
             </div>
 
@@ -215,9 +215,9 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Contact Us</h2>
               <div className="glass-card p-6">
-                <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@healthy-template.com" className="text-green-600 hover:underline">support@healthy-template.com</a></p>
+                <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a></p>
                 <p className="text-gray-600 mb-2"><strong>Phone:</strong> (855) XXX-XXXX</p>
-                <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">healthy-template.com</a></p>
+                <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">teamcrossfit.com</a></p>
               </div>
             </div>
 

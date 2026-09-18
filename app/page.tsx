@@ -65,7 +65,7 @@ export default function HomePage() {
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
             </div>
-            <span className="font-semibold text-gray-900 text-[15px] tracking-tight">healthy-template</span>
+            <span className="font-semibold text-gray-900 text-[15px] tracking-tight">Team Cross Fit</span>
           </div>
 
           {/* Desktop Nav */}
@@ -138,10 +138,10 @@ export default function HomePage() {
 
             {/* Subheading */}
             <p className="text-xl text-gray-500 leading-relaxed max-w-2xl mx-auto mb-4">
-              healthy-template connects the health apps and devices your employees already use with company wellness programs, challenges, and rewards.
+              Team Cross Fit connects the health apps and devices your employees already use with company wellness programs, challenges, and rewards.
             </p>
             <p className="text-lg text-gray-400 max-w-xl mx-auto mb-10">
-              Employees keep doing the activities they already love. healthy-template turns that activity into progress.
+              Employees keep doing the activities they already love. Team Cross Fit turns that activity into progress.
             </p>
 
             {/* Trust statement */}
@@ -544,7 +544,7 @@ export default function HomePage() {
                         <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                       </svg>
                     </div>
-                    <span className="text-xs font-semibold text-gray-700">healthy-template</span>
+                    <span className="text-xs font-semibold text-gray-700">Team Cross Fit</span>
                   </div>
                   <p className="text-[10px] text-gray-400 mb-3 font-medium uppercase tracking-wider">Today&apos;s Activity</p>
                   <div className="space-y-2">
@@ -637,7 +637,7 @@ export default function HomePage() {
                 <br /><span className="gradient-text-green">Keep it that way.</span>
               </h2>
               <p className="text-lg text-gray-500 mb-8 leading-relaxed">
-                healthy-template is designed around employee choice. Employees decide whether to connect supported health services and choose what eligible activity they authorize.
+                Team Cross Fit is designed around employee choice. Employees decide whether to connect supported health services and choose what eligible activity they authorize.
               </p>
               <div className="space-y-6">
                 {[
@@ -667,7 +667,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Apple Health</p>
-                  <p className="text-xs text-gray-400">Allow healthy-template to access:</p>
+                  <p className="text-xs text-gray-400">Allow Team Cross Fit to access:</p>
                 </div>
               </div>
 
