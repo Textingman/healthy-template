@@ -60,7 +60,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Team Cross Fit" width={140} height={40} className="h-10 w-auto" />
+            <Image src="/logo.png" alt="Team Cross Fit" width={200} height={60} className="h-14 w-auto" />
           </div>
 
           {/* Desktop Nav */}

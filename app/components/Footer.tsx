@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-3">
-              <Image src="/logo.png" alt="Team Cross Fit" width={140} height={40} className="h-10 w-auto" />
+              <Image src="/logo.png" alt="Team Cross Fit" width={200} height={60} className="h-14 w-auto" />
             </Link>
             <p className="text-sm text-gray-400 max-w-xs">
               Connected employee wellness for HR and people teams.
