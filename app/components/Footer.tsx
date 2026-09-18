@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -7,13 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-xl flex items-center justify-center"
-                style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                </svg>
-              </div>
-              <span className="font-semibold text-gray-900">Team Cross Fit</span>
+              <Image src="/logo.png" alt="Team Cross Fit" width={140} height={40} className="h-10 w-auto" />
             </Link>
             <p className="text-sm text-gray-400 max-w-xs">
               Connected employee wellness for HR and people teams.
