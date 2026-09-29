@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Team Cross Fit — Connected Employee Wellness",
   description: "Team Cross Fit connects the health apps and devices your employees already use with company wellness programs, challenges, and rewards.",
   keywords: "employee wellness, workplace wellness, health app integration, wellness challenges, Apple Health, fitness tracker, employee health",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Team Cross Fit — Connected Employee Wellness",
     description: "Connect the health apps your employees already use. Build wellness programs people actually participate in.",
