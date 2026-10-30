@@ -62,7 +62,8 @@ export default function ContactPage() {
             <div className="space-y-6 mb-10">
               {[
                 { icon: '📧', title: 'Email', value: 'hello@teamcrossfit.com', href: 'mailto:hello@teamcrossfit.com' },
-                { icon: '📞', title: 'Phone', value: '(855) XXX-XXXX', href: 'tel:+18550000000' },
+                { icon: '📞', title: 'Phone', value: '(302) 520-5454', href: 'tel:+13025205454' },
+                { icon: '📍', title: 'Office', value: '#3085 1401 Pennsylvania Ave Suite 105 Wilmington, DE 19806', href: null },
                 { icon: '🕐', title: 'Business Hours', value: 'Monday – Friday, 9am – 6pm EST', href: null },
               ].map(item => (
                 <div key={item.title} className="flex items-start gap-4 p-5 rounded-2xl" style={{ background: 'rgba(0,0,0,0.02)' }}>
