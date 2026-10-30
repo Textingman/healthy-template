@@ -61,7 +61,7 @@ export default function ContactPage() {
 
             <div className="space-y-6 mb-10">
               {[
-                { icon: '📧', title: 'Email', value: 'support@teamcrossfit.com', href: 'mailto:support@teamcrossfit.com' },
+                { icon: '📧', title: 'Email', value: 'hello@teamcrossfit.com', href: 'mailto:hello@teamcrossfit.com' },
                 { icon: '📞', title: 'Phone', value: '(855) XXX-XXXX', href: 'tel:+18550000000' },
                 { icon: '🕐', title: 'Business Hours', value: 'Monday – Friday, 9am – 6pm EST', href: null },
               ].map(item => (

@@ -279,7 +279,7 @@ export default function SignupPage() {
                   📧 <strong>We&apos;ve notified your employer</strong> (Company ID: <strong>{formData.companyId}</strong>) that you&apos;ve requested access. Once approved, you&apos;ll receive an email at <strong>{formData.email}</strong> with instructions to activate your account and connect your health apps.
                 </p>
                 <p className="text-sm text-green-800 leading-relaxed mt-3">
-                  ⏱ Approval typically takes <strong>1–2 business days</strong>. Questions? <a href="mailto:support@teamcrossfit.com" className="underline">support@teamcrossfit.com</a>
+                  ⏱ Approval typically takes <strong>1–2 business days</strong>. Questions? <a href="mailto:hello@teamcrossfit.com" className="underline">hello@teamcrossfit.com</a>
                 </p>
               </div>
               <Link href="/"

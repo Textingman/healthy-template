@@ -173,7 +173,7 @@ export default function PrivacyPage() {
                 <strong>We do not send marketing or promotional SMS messages.</strong> No mobile information will be shared with or sold to third parties for marketing or promotional purposes.
               </p>
               <p className="text-gray-600 mt-4">
-                Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a>.
+                Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:hello@teamcrossfit.com" className="text-green-600 hover:underline">hello@teamcrossfit.com</a>.
               </p>
             </div>
 
@@ -187,7 +187,7 @@ export default function PrivacyPage() {
                 <li><strong>Opt-out:</strong> Opt out of SMS communications by replying STOP</li>
               </ul>
               <p className="text-gray-600 mt-4">
-                To exercise these rights, contact us at <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a>.
+                To exercise these rights, contact us at <a href="mailto:hello@teamcrossfit.com" className="text-green-600 hover:underline">hello@teamcrossfit.com</a>.
               </p>
             </div>
 
@@ -215,7 +215,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Contact Us</h2>
               <div className="glass-card p-6">
-                <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a></p>
+                <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:hello@teamcrossfit.com" className="text-green-600 hover:underline">hello@teamcrossfit.com</a></p>
                 <p className="text-gray-600 mb-2"><strong>Phone:</strong> (855) XXX-XXXX</p>
                 <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">teamcrossfit.com</a></p>
               </div>

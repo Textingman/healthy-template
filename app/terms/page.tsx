@@ -95,7 +95,7 @@ export default function TermsPage() {
                   <li>• <strong>Message and data rates may apply.</strong></li>
                   <li>• Message frequency varies based on your account activity.</li>
                   <li>• To opt out at any time, reply <strong>STOP</strong> to any message.</li>
-                  <li>• For help, reply <strong>HELP</strong> or contact <a href="mailto:support@teamcrossfit.com" className="underline">support@teamcrossfit.com</a>.</li>
+                  <li>• For help, reply <strong>HELP</strong> or contact <a href="mailto:hello@teamcrossfit.com" className="underline">hello@teamcrossfit.com</a>.</li>
                   <li>• Opting in to SMS is optional and not required to use the Service.</li>
                   <li>• <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong></li>
                 </ul>
@@ -181,7 +181,7 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">15. Contact Us</h2>
             <div className="glass-card p-6">
               <p className="text-gray-600 mb-2">If you have questions about these Terms, please contact us:</p>
-              <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@teamcrossfit.com" className="text-green-600 hover:underline">support@teamcrossfit.com</a></p>
+              <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:hello@teamcrossfit.com" className="text-green-600 hover:underline">hello@teamcrossfit.com</a></p>
               <p className="text-gray-600 mb-2"><strong>Phone:</strong> (855) XXX-XXXX</p>
               <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-green-600 hover:underline">teamcrossfit.com</a></p>
             </div>
